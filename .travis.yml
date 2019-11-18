@@ -9,7 +9,6 @@ dist: trusty
 ​jdk: openjdk8
 
 cache:
-    directories:
-    ​"$HOME/.m2"
-​script:
-​"mvn clean install"
+    directories: ​"$HOME/.m2"
+
+​script: ​"mvn clean install"
